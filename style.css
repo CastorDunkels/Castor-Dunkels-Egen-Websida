@@ -1,6 +1,6 @@
 body {
-    margin: 40px;
-    background: linear-gradient(360deg, rgba(10,0,0,1) 20%, rgba(0,0,0,1) 100%);
+    margin: 20px;
+    background: rgba(40,0,0,1);
     color: snow;
 
 }
@@ -10,8 +10,13 @@ h1 {
     
 
 }
+.Pages {
+    display: flex;
+    justify-content: space-around; 
 
-button {
+}
+
+.fine {
     background: linear-gradient(360deg, rgba(70,0,0,1) 20%, rgba(60,0,40,1) 100%);
     color: rgba(200,200,250,1);
     border-style: double;
@@ -21,10 +26,20 @@ button {
     width: 100px;
     border-radius: 200px;
 }
-button:hover {
+.foul {
+    background: linear-gradient(360deg, rgba(70,0,0,1) 20%, rgba(60,0,40,1) 100%);
+    color: rgba(200,200,250,1);
+    border-style: double;
+    border-color: revert;
+    margin: 2px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 200px;
+}
+.fine:hover {
     background-color: black;
 }
-button:active {
+.fine:active {
     background-color: crimson;
 }
 .buttons {
