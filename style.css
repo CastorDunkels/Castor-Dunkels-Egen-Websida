@@ -1,6 +1,7 @@
 body {
     background: rgba(40,0,0,1);
     color: snow;
+    
 
 }
 
@@ -12,13 +13,13 @@ h1 {
 }
 
 h3 {
-    font-family: "";
+    font-family: '';
     display: flex;
     justify-content: center;
 }
 
 h2 {
-    font-family: "";
+    font-family: '';
     display: flex;
     justify-content: center;
 }
@@ -72,3 +73,12 @@ button:active {
 
 }
 
+img{
+    display: flex; 
+    width: 25%;
+    height: 35%;
+    margin-left: auto;
+    border-radius: 5px;
+    
+
+}
