@@ -1,9 +1,11 @@
 body {
   background: rgba(40, 0, 0, 1);
   color: snow;
-  
 }
-* { margin:0; padding:0; }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 h1 {
   font-family: "";
@@ -30,7 +32,6 @@ p {
 }
 .row {
   display: flex;
-
 }
 
 .column25 {
@@ -44,26 +45,53 @@ p {
   padding: 10px;
 }
 .column100 {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-.Pages {
+.Pages1 {
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: rgba(0, 40, 60, 1);
+  color: rgba(240, 240, 255, 1);
+  height: 32px;
+  width: 100%;
+  padding-top: 14px;
+}
+.Pages2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(70, 0, 0, 1);
+  color: rgba(240, 240, 255, 1);
+  height: 32px;
+  width: 100%;
+  padding-top: 14px;
+}
+.Pages3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 60, 1);
+  color: rgba(240, 240, 255, 1);
+  height: 32px;
+  width: 100%;
+  padding-top: 14px;
+}
+.Pages4 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 10, 170, 1);
   color: rgba(240, 240, 255, 1);
   height: 32px;
   width: 100%;
   padding-top: 14px;
 }
 button {
-  background: black;
+  background: rgba(0, 0, 60, 0);
   color: rgba(240, 240, 255, 1);
   border-style: hidden;
 }
 button:active {
-  color: blue;
+  color: crimson;
 }
 
 .fine {
