@@ -1,5 +1,5 @@
 body {
-  background: rgba(40, 0, 0, 1);
+  background: rgba(0, 0, 0, 1);
   color: snow;
 }
 * {
@@ -52,7 +52,7 @@ p {
 .Pages1 {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(0, 40, 60, 1);
+  background-color: rgb(42, 38, 12);
   color: rgba(240, 240, 255, 1);
   height: 32px;
   width: 100%;
@@ -85,6 +85,10 @@ p {
   width: 100%;
   padding-top: 14px;
 }
+.video {
+  padding-bottom: 20px;
+}
+
 button {
   background: rgba(0, 0, 60, 0);
   color: rgba(240, 240, 255, 1);
