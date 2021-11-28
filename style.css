@@ -8,24 +8,27 @@ body {
 }
 
 h1 {
-  font-family: "";
+  font-family: 'UnifrakturCook', cursive;
   display: flex;
   justify-content: center;
 }
-
-h3 {
-  font-family: "";
-  display: flex;
-  justify-content: center;
-}
-
 h2 {
-  font-family: "";
+  font-family: 'UnifrakturCook', cursive;
   display: flex;
   justify-content: center;
+}
+h3 {
+  font-family: 'IM Fell English', serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 p {
+  font-family: 'IM Fell English', serif;
   display: flex;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 .container {
   margin: 25px;
